@@ -7,6 +7,10 @@ let tomatoSauceIngredients = [
 ];
 */
 let chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
+
 function addElementToBeginningOfArray(arrayName, elementToAdd){
-  
+ return arrayName.unshift(elementToAdd);
+}
+function destructivelyAddElementToBeginningOfArray(arrayName, elementToAdd){
+  arrayName[0]
 }
