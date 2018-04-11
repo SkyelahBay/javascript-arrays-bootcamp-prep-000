@@ -30,12 +30,13 @@ function destructivelyAddElementToEndOfArray(arrayName, elementToAdd){
 function accessElementInArray(arrayName, index){
   return arrayName[index];
 }
+
 function destructivelyRemoveElementFromBeginningOfArray(arrayName){
    arrayName.shift();
    return arrayName;
 }
 
 function removeElementFromBeginningOfArray(arrayName){
-  let newArray = arrayName.slice(0,1);
+  let newArray = arrayName.slice(1);
   return newArray;
 }
