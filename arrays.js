@@ -8,8 +8,17 @@ let tomatoSauceIngredients = [
 */
 let chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
 
+
 function addElementToBeginningOfArray(arrayName, elementToAdd){
+  return [elementToAdd, ...arrayName];
 }
 function destructivelyAddElementToBeginningOfArray(arrayName, elementToAdd){
   return arrayName.unshift(elementToAdd);
+}
+
+function addElementToEndOfArray(arrayName, elementToAdd){
+  return [arrayName, ...elementToAdd];
+}
+function destructivelyAddElementToEndOfArray(arrayName, elementToAdd){
+  return arrayName.push(elementToAdd);
 }
