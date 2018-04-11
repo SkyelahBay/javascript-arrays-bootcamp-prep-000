@@ -6,7 +6,7 @@ let tomatoSauceIngredients = [
   'tomato', 'garlic', 'olive oil', 'basil', 'oregano'
 ];
 */
-let chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
+var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles'];
 
 
 function addElementToBeginningOfArray(arrayName, elementToAdd){
