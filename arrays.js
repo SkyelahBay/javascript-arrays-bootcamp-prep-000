@@ -40,3 +40,13 @@ function removeElementFromBeginningOfArray(arrayName){
   let newArray = arrayName.slice(1);
   return newArray;
 }
+
+function destructivelyRemoveElementFromEndOfArray(arrayName){
+  arrayName.pop();
+  return arrayName;
+}
+
+function removeElementFromEndOfArray(arrayName){
+  let newArray = arrayName.slice(-1);
+  return newArray;
+}
